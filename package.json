@@ -1,0 +1,15 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "Minesweeper project game ",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bboard\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D",
+  "scripts": {
+    "test": "{\"build\": \"babel src -d lib\", \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"},"
+  },
+  "author": "Abraham Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
